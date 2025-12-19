@@ -47,16 +47,24 @@ Learning programming can be challenging for beginners due to complex tools and e
 
 ## 📸 Screenshots
 
-> *(Upload your screenshots inside a `screenshots` folder and link them below)*
+### Login Page
+
+<img width="1919" height="909" alt="Screenshot 2025-11-25 205200" src="https://github.com/user-attachments/assets/73f75aa9-a469-487d-94ef-b41b66ea81ca" />
 
 ### 🏠 Home Page
-![Home Page](screenshots/home.png)
+<img width="1919" height="906" alt="Screenshot 2025-11-25 205425" src="https://github.com/user-attachments/assets/eaae09f9-731e-4e29-aef1-5d2c9f83c05c" />
+
 
 ### 💻 Code Editor
-![Code Editor](screenshots/editor.png)
+<img width="1919" height="907" alt="Screenshot 2025-11-25 205644" src="https://github.com/user-attachments/assets/cd0675ff-bb6a-45e7-a2f8-f83d41fbf640" />
+
 
 ### 📚 Learning Section
-![Learning Section](screenshots/learning.png)
+<img width="1919" height="913" alt="Screenshot 2025-11-25 205814" src="https://github.com/user-attachments/assets/8cb82a8b-35b5-480a-b7d0-22bae50ef43b" />
+
+### Skill Test Set
+
+<img width="1919" height="909" alt="Screenshot 2025-12-01 232519" src="https://github.com/user-attachments/assets/c493a829-6ea2-40e2-aee6-8ad777df85e2" />
 
 ---
 
