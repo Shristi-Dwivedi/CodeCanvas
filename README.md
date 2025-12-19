@@ -70,3 +70,33 @@ Learning programming can be challenging for beginners due to complex tools and e
 
 ## 📂 Project Structure
 
+CodeCanvas/
+│
+├── frontend/ # Frontend source code
+├── backend/ # Backend source code (if used)
+├── screenshots/ # Project screenshots
+├── README.md # Project documentation
+└── package.json
+
+## 🎓 Academic Details
+
+- **Project Name:** CodeCanvas  
+- **Project Type:** Minor Project  
+- **Course:** MCA  
+- **Developer:** Shristi  
+- **Purpose:** Academic & Learning-based Project
+
+### 📥 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/CodeCanvas.git
+cd CodeCanvas
+npm install
+cd frontend
+npm install
+
+cd ../backend
+npm install
+npm start
+
+
