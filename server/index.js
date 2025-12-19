@@ -5,8 +5,10 @@ const cors = require("cors");
 const testHistoryRoutes = require("./routes/testHistory");
 const authRoutes = require("./routes/auth");
 const tutorialRoute = require("./routes/tutorials");
-const app = express();
+const questionRoute = require("./routes/question");
+const leaderboardRoutes = require("./routes/leaderboard");
 
+const app = express();
 // Middleware
 app.use(cors());
 
@@ -24,6 +26,8 @@ mongoose.connect("mongodb://127.0.0.1:27017/IDEusers", {
 app.use("/api/auth", authRoutes);
 app.use("/api/tutorials", tutorialRoute);
 app.use("/api/testHistory", testHistoryRoutes);
+app.use("/api/questions", questionRoute);
+app.use("/api", leaderboardRoutes);
 
 app.listen(5000, () => {
   console.log("Server running on port 5000");

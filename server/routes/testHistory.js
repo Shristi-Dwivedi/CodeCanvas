@@ -1,30 +1,34 @@
-const express = require('express');
-// import TestHistory from "../models/TestHistory";
+const express = require("express");
 const TestHistory = require("../models/TestHistory");
-
 const router = express.Router();
 
-router.post("/",async(req,res)=>{
-    try{
-        const {userId,testName,score,totalMarks,grade} = req.body;
-        const history = new TestHistory({userId,testName,score,totalMarks,grade});
-        await history.save();
-        res.status(201).json({message:"Test saved success",history});
-    }catch(err){
-        console.error("Error saving",err);
-        res.status(500).json({error:"Server errror"});
-    }
-})
+// Save test history
+router.post("/", async (req, res) => {
+  const { userId, questions, grade } = req.body;
 
-router.get('/:userId',async(req,res)=>{
-    try{
-        const {userId} = req.params;
-        const histories = await TestHistory.find({userId}).sort({attemptedAt:-1});
-        res.json(histories);
-    }catch(err){
-        console.error("Error while fetching",err);
-        res.status(500).json({error:"Server Error"});
-    }
-})
+  if (!userId || !questions || !grade) {
+    return res.status(400).json({ msg: "Missing required fields" });
+  }
+
+  try {
+    const history = new TestHistory({ userId, questions, grade });
+    await history.save();
+    res.status(201).json({ msg: "History saved", history });
+  } catch (err) {
+    console.error("Error saving history:", err);
+    res.status(500).json({ msg: "Error saving history" });
+  }
+});
+
+// Get history of a user
+router.get("/my-history/:userId", async (req, res) => {
+  try {
+    const history = await TestHistory.find({ userId: req.params.userId })
+      .sort({ createdAt: -1 });
+    res.json(history);
+  } catch (err) {
+    res.status(500).json({ msg: "Error fetching history" });
+  }
+});
 
 module.exports = router;
