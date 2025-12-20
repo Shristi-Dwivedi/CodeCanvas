@@ -83,7 +83,7 @@ public class Program
             <div className="ide-container">
                 {/* Top Navbar */}
                 <div className="top-bar">
-                    <span><img src={logo} className="logo"></img>  CodeCanvas : A Learning IDE</span>
+                    <span><img src={logo} className="logo" alt=""></img>  CodeCanvas : A Learning IDE</span>
                     <div>
                         <select value={language} onChange={handleLanguageChange} className="lang-select">
                             <option value="63">JavaScript</option>

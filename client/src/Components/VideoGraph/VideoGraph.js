@@ -11,7 +11,7 @@ const COLORS = ["#8884d8", "#82ca9d"];
 const VideoGraph = () => {
     const { currentUser } = useContext(AuthContext); 
     const [watchedCount, setWatchedCount] = useState(0);
-    const [totalVideos, setTotalVideos] = useState(8);
+    const [totalVideos] = useState(8);
 
     useEffect(() => {
         if (!currentUser) {
