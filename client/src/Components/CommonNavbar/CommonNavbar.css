@@ -1,0 +1,46 @@
+.navbar_cnt{
+    position: relative;
+}
+.navbox{
+    height: 70px;
+    width: 100%;
+    box-shadow: 1px 1px 4px grey;
+    position: absolute;
+}
+.navhead{
+    color: white;
+    position: absolute;
+    top: 3px;
+    left: 120px;
+    font-size: larger;
+}
+.nav_learnstat{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.nav_codestat{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+.nav_user{
+    height: 40px;
+    position: absolute;
+    top:15px;
+    right: 60px;
+}
+.nav_ide{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+.nav_test{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+}

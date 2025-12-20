@@ -1,0 +1,122 @@
+.test_history_sub_container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-left: 100px; 
+  margin-top: 90px; 
+  min-height: calc(100vh - 70px);
+  box-sizing: border-box;
+  background-color: #000; 
+  color: white;
+  position: absolute;
+}
+
+/* Table styles */
+.test-history-table {
+  width: 100%;
+  max-width: 1100px;
+  min-width: 600px;   
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 0 auto 2rem;
+  background-color: #121212; 
+  color: white;
+  border-radius: 6px;
+}
+
+.test-history-table caption {
+  caption-side: top;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  color: #c5ff5a;
+  text-align: center;
+  background-color: #1f1f1f;
+}
+
+/* Header row */
+.test-history-table thead th {
+  background-color: #3ad290;
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  border-bottom: 2px solid #2535a7;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Body rows */
+.test-history-table tbody tr {
+  background-color: #2a2a2a;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+.test-history-table tbody tr:nth-child(even) {
+  background-color: #232323;
+}
+
+.test-history-table tbody td {
+  padding: 12px 15px;
+  color: #ddd;
+  white-space: nowrap;
+}
+.history-leaderboard-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+/* Test History Cards (Left Side) */
+.history-section {
+  width: 65%;
+}
+
+/* Leaderboard Table (Right Side) */
+.leaderboard-section {
+  width: 35%;
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Leaderboard Title */
+.leaderboard-heading{
+  color:white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 870px;
+}
+
+/* Table Styling */
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 800px;
+}
+
+.leaderboard-table th {
+  background: #00c896;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.leaderboard-table td {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  text-align: center;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background: #222;
+}

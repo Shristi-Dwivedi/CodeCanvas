@@ -1,0 +1,37 @@
+.video-card {
+  background: #1e1e2f;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+.video-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-wrapper iframe {
+  width: 500px;
+  height: 250px;
+}
+
+.video-card:hover {
+  transform: scale(1.02);
+}
+
+.video_history_container {
+    position: relative;
+    top: 110px;
+    left: 100px;
+    width: 700px;
+}
+
+.video-list{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3,1fr);
+}

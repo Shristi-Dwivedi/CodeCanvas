@@ -1,0 +1,24 @@
+body{
+    overflow-y:auto;
+}
+.hackathon-ide .ide-container{
+    position: relative;
+    top: 10px;
+    width: 1400px;
+    left: -20px;
+}
+.hackathon-ide .back-btn{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.hackathon-ide .editor_box{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+}
+.output-box{
+    color:springgreen;
+}

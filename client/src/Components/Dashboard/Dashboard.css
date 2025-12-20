@@ -1,0 +1,57 @@
+.dashboard_main_container{
+    position: relative;
+}
+/* Dashboard welcome box */
+.dashboard_welcomebox{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    border-radius: 20px;
+    background-color: rgb(86, 86, 233);
+    z-index: 0;
+}
+.dashboard_welcomebox_text{
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-size: 28px;
+}
+/* Dashboard Tutorial Box */
+.dashboard_tutorialbox{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    top: 250px;
+    left: 900px;
+    border-radius: 20px;
+    background-color: rgb(223, 233, 86);
+    z-index: 0;
+}
+.dashboard_tutorialbox_text{
+    color: black;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-size: 28px;
+}
+/* Dashboard codegrade box */
+.dashboard_codegradebox{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    top: 520px;
+    left: 910px;
+    border-radius: 20px;
+    background-color: rgb(233, 86, 86);
+    z-index: 0;
+}
+.dashboard_codegradebox_text{
+    color: black;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-size: 28px;
+}

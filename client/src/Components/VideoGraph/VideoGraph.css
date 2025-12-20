@@ -1,0 +1,38 @@
+.graph-wrapper {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 600px;
+  margin: 20px auto;
+  position: relative;
+  bottom: 150px;
+  right: 350px;
+}
+
+.graph-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.graph-content {
+  height: 250px;
+}
+.chart-container {
+  background: transparent;    
+  border-radius: 20px;      
+  padding: 20px;            
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+  height: 350px;
+  width: 600px;
+}
+
+.chart-container:hover {
+  transform: scale(1.02);   
+}

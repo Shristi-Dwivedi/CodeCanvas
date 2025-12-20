@@ -1,0 +1,8 @@
+.animated_text_cnt{
+    position: absolute;
+    top: 120px;
+    left: 750px;
+    font-size: 30px;
+    color:tan;
+    font-weight: bold;
+}

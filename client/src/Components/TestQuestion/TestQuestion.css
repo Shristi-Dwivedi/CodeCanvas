@@ -1,0 +1,94 @@
+.test_navbar_cnt {
+    position: relative;
+}
+
+.test_navbox {
+    height: 70px;
+    width: 100%;
+    box-shadow: 1px 1px 4px grey;
+    position: absolute;
+}
+
+.test_navhead {
+    color: white;
+    position: absolute;
+    top: 3px;
+    left: 120px;
+    font-size: larger;
+}
+
+.test_learnstat {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+
+.test_codestat {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+
+.test_user {
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+
+.test_ide {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+.test_test {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+}
+
+.test-question-container {
+    position: relative;
+    top: 80px;
+    left: 100px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.problem-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+    margin: 0;
+}
+
+.problem-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    width: 500px;
+}
+
+.problem-card:hover {
+    background: #1f2937;
+}
+
+.difficulty {
+    color: gray;
+    font-size: 14px;
+}
